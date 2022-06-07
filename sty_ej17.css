@@ -1,0 +1,44 @@
+.dg{display: inline-block;}
+.p1, .p2, .p3{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 5px;
+}
+
+.p1{
+    background: red;
+}
+
+.p2{
+    background: greenyellow;
+}
+
+.p3{
+    background: blue;
+}
+.s1{
+    background: violet;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+}
+.s2{
+    background: aqua;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+}
+.s3{
+    background: yellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+}
