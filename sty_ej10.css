@@ -1,0 +1,25 @@
+
+.titulo {
+    background: aqua;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    display: table;
+}
+
+.tab {
+    background: rgb(255, 233, 132);
+    border: 5px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+th, td{
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+.iva{
+    background-color: aqua;
+}
