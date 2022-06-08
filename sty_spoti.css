@@ -1,0 +1,126 @@
+body{
+    font-family: 'Signika', sans-serif;
+    margin: 0px;
+}
+
+.enlaces img{
+    margin: 10px;
+    width: 200px;
+    height: 60px;
+}
+
+.enlaces a{
+    float: right;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 27px;
+}
+
+
+.dimg{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+}
+
+.dimg img {
+    width: 100%;
+}
+
+.ttl{
+    display: flex;
+    justify-content: center;
+}
+
+.dis{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.dis h2{
+    color: rgb(38, 126, 38);
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 15px;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+}
+
+.pbl{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.pbl img{
+    width: 100%;
+}
+
+.dimg1 {
+    float: left;
+}
+
+.dtxt {
+    background-color: rgb(234, 234, 234);
+    font-size: 18px;
+    padding: 20px;
+    height: 590px;
+}
+
+@media (max-width: 1024px) {
+    .dtxt{
+        height: 487px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .pbl{
+        display: grid;
+        flex-direction: row;
+    }
+
+    .dtxt{
+        text-align: center;
+        height: auto;
+    }
+}
+
+@media (max-width: 515px) {
+    .enlaces {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .enlaces a{
+        margin: 10px;
+        margin-left: 75px;
+    }
+    .dimg{
+        height: 250px;
+        width: 100%;
+    }
+    .dis{
+        display: grid;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 95%;
+    }
+
+    .card p {
+        width: 100%;
+    }
+}
